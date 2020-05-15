@@ -22,3 +22,19 @@ JSON
            "numero": 99
        } 
 }
+
+Exemplo de mensagem SOAP
+
+<soap:Envelove xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap>:Header>
+    </soap: Header>
+    <soap:Body>
+        <m:MetodoEndereco xmlns:m="http://www.example.org/endereco">
+            <m:Cidade> Rio de janeiro </m:Cidade>
+            <m:CEP> 9999-99</m:CEP>
+            <m:Logadouro> Avenida Atlántida </:Logadouro>
+            <m:Numero> 99 </m:Numero>
+        </m:Endereco>
+    </sopa:Body>
+  <soap:Envelope>
+    
