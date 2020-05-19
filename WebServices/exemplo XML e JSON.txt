@@ -37,4 +37,6 @@ Exemplo de mensagem SOAP
         </m:Endereco>
     </sopa:Body>
   <soap:Envelope>
-    
+
+Exemplo de Json 
+
