@@ -9,4 +9,3 @@ client = Client('http://www.soapclient.com/xml/soapresponder.wsdl') // uma inst√
 result = Client.service.Method1(bstrParam1='oi', bstrParam2='tchau')
 pring(result)
 
-
