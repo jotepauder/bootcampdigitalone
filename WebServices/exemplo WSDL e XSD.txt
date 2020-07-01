@@ -51,11 +51,12 @@ Exemplo de WSDL - Código organizado para melhorar a leitura/entendimento
 
 <service name="SoapResponder">
     <documentation>
-    A SOAP service that echoes input parameters in the response
-    
+    A SOAP service that echoes input parameters in the response // Uma descrição do que o serviço faz, 
     </documentation>
         <port name="SoapResponderPortType" binding="tns:SoapResponderBinding">
     <soap:address location="http://www.soapclient.com/xml/soapresponder.wsdl"/>
         </port>
 </service>
 </definitions>
+
+Teste
